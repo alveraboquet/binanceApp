@@ -1,23 +1,49 @@
-2022-08-29 22:35:35.917[1661780135917] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connecting to stream.binance.com/ws/btcusdt@aggTrade
-2022-08-29 22:35:35.926[1661780135926] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 2] Connecting to stream.binance.com/stream
-2022-08-29 22:35:35.926[1661780135926] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 3] Connecting to stream.binance.com/ws/tgBdHepZY2Uwv423DKGyeoguE2fntJmg1mAelC7sKMLbsypav1D0No3LfZgrlGeZ
-2022-08-29 22:35:35.927[1661780135927] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Closing connection to stream.binance.com/ws/btcusdt@aggTrade
-2022-08-29 22:35:35.927[1661780135927] | INFO  | main       | c.b.c.c.impl.WebsocketClientImpl     - Closing Connection ID 1
-2022-08-29 22:35:35.927[1661780135927] | INFO  | main       | c.b.c.c.impl.WebsocketClientImpl     - Closing 2 connections(s)
-2022-08-29 22:35:35.928[1661780135928] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 2] Closing connection to stream.binance.com/stream
-2022-08-29 22:35:35.928[1661780135928] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 3] Closing connection to stream.binance.com/ws/tgBdHepZY2Uwv423DKGyeoguE2fntJmg1mAelC7sKMLbsypav1D0No3LfZgrlGeZ
-2022-08-29 22:35:35.928[1661780135928] | INFO  | main       | c.b.c.c.impl.WebsocketClientImpl     - All connections are closed!
-2022-08-29 22:35:36.207[1661780136207] | INFO  | main       | controller.BinanceAppApplication     - Starting BinanceAppApplication using Java 18.0.2.1 on DESKTOP-8IAHSRN with PID 15928 (C:\Users\NOMAN\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\binanceApp\target\classes started by NOMAN in C:\Users\NOMAN\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\binanceApp)
-2022-08-29 22:35:36.208[1661780136208] | INFO  | main       | controller.BinanceAppApplication     - No active profile set, falling back to 1 default profile: "default"
-2022-08-29 22:35:36.485[1661780136485] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 3] Connected to Server
-2022-08-29 22:35:36.545[1661780136545] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connected to Server
-2022-08-29 22:35:36.546[1661780136546] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 2] Connected to Server
-2022-08-29 22:35:36.711[1661780136711] | INFO  | main       | o.s.b.w.e.tomcat.TomcatWebServer     - Tomcat initialized with port(s): 8080 (http)
-2022-08-29 22:35:36.720[1661780136720] | INFO  | main       | o.a.coyote.http11.Http11NioProtocol  - Initializing ProtocolHandler ["http-nio-8080"]
-2022-08-29 22:35:36.720[1661780136720] | INFO  | main       | o.a.catalina.core.StandardService    - Starting service [Tomcat]
-2022-08-29 22:35:36.720[1661780136720] | INFO  | main       | o.a.catalina.core.StandardEngine     - Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-08-29 22:35:36.776[1661780136776] | INFO  | main       | o.a.c.c.C.[Tomcat].[localhost].[/]   - Initializing Spring embedded WebApplicationContext
-2022-08-29 22:35:36.776[1661780136776] | INFO  | main       | o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 542 ms
-2022-08-29 22:35:36.961[1661780136961] | INFO  | main       | o.a.coyote.http11.Http11NioProtocol  - Starting ProtocolHandler ["http-nio-8080"]
-2022-08-29 22:35:36.973[1661780136973] | INFO  | main       | o.s.b.w.e.tomcat.TomcatWebServer     - Tomcat started on port(s): 8080 (http) with context path ''
-2022-08-29 22:35:36.978[1661780136978] | INFO  | main       | controller.BinanceAppApplication     - Started BinanceAppApplication in 0.989 seconds (JVM running for 1.581)
+2022-08-30 21:49:35.524[1661863775524] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connecting to stream.binance.com/ws/btcusdt@aggTrade
+2022-08-30 21:49:35.533[1661863775533] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 2] Connecting to stream.binance.com/stream
+2022-08-30 21:49:35.533[1661863775533] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 3] Connecting to stream.binance.com/ws/tgBdHepZY2Uwv423DKGyeoguE2fntJmg1mAelC7sKMLbsypav1D0No3LfZgrlGeZ
+2022-08-30 21:49:35.534[1661863775534] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 4] Connecting to stream.binance.com/ws/btcusdt@miniTicker
+2022-08-30 21:49:36.048[1661863776048] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 4] Connected to Server
+2022-08-30 21:49:36.070[1661863776070] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 2] Connected to Server
+2022-08-30 21:49:36.076[1661863776076] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 3] Connected to Server
+2022-08-30 21:49:36.122[1661863776122] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connected to Server
+2022-08-30 21:49:51.516[1661863791516] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connecting to stream.binance.com/ws/btcusdt@aggTrade
+2022-08-30 21:49:51.523[1661863791523] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 2] Connecting to stream.binance.com/stream
+2022-08-30 21:49:51.523[1661863791523] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 3] Connecting to stream.binance.com/ws/tgBdHepZY2Uwv423DKGyeoguE2fntJmg1mAelC7sKMLbsypav1D0No3LfZgrlGeZ
+2022-08-30 21:49:51.524[1661863791524] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 4] Connecting to stream.binance.com/ws/btcusdt@miniTicker
+2022-08-30 21:49:52.037[1661863792037] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 4] Connected to Server
+2022-08-30 21:49:52.039[1661863792039] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 2] Connected to Server
+2022-08-30 21:49:52.090[1661863792090] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connected to Server
+2022-08-30 21:49:52.119[1661863792119] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 3] Connected to Server
+2022-08-30 21:49:52.348[1661863792348] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.impl.WebsocketClientImpl     - Closing 4 connections(s)
+2022-08-30 21:49:52.348[1661863792348] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Closing connection to stream.binance.com/ws/btcusdt@aggTrade
+2022-08-30 21:49:52.348[1661863792348] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 2] Closing connection to stream.binance.com/stream
+2022-08-30 21:49:52.348[1661863792348] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 3] Closing connection to stream.binance.com/ws/tgBdHepZY2Uwv423DKGyeoguE2fntJmg1mAelC7sKMLbsypav1D0No3LfZgrlGeZ
+2022-08-30 21:49:52.349[1661863792349] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 4] Closing connection to stream.binance.com/ws/btcusdt@miniTicker
+2022-08-30 21:49:52.349[1661863792349] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.impl.WebsocketClientImpl     - All connections are closed!
+2022-08-30 22:44:37.718[1661867077718] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connecting to stream.binance.com/ws/btcusdt@aggTrade
+2022-08-30 22:44:37.726[1661867077726] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 2] Connecting to stream.binance.com/stream
+2022-08-30 22:44:37.727[1661867077727] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 3] Connecting to stream.binance.com/ws/tgBdHepZY2Uwv423DKGyeoguE2fntJmg1mAelC7sKMLbsypav1D0No3LfZgrlGeZ
+2022-08-30 22:44:37.728[1661867077728] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 4] Connecting to stream.binance.com/ws/h@kline_tgBdHepZY2Uwv423DKGyeoguE2fntJmg1mAelC7sKMLbsypav1D0No3LfZgrlGeZ
+2022-08-30 22:44:38.261[1661867078261] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connected to Server
+2022-08-30 22:44:38.261[1661867078261] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 2] Connected to Server
+2022-08-30 22:44:38.268[1661867078268] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 3] Connected to Server
+2022-08-30 22:44:38.296[1661867078296] | ERROR | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 4] Failure
+java.net.ProtocolException: Expected HTTP 101 response but was '400 Bad Request'
+	at okhttp3.internal.ws.RealWebSocket.checkUpgradeSuccess$okhttp(RealWebSocket.kt:224)
+	at okhttp3.internal.ws.RealWebSocket$connect$1.onResponse(RealWebSocket.kt:170)
+	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-30 22:46:25.672[1661867185672] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connecting to stream.binance.com/ws/btcusdt@aggTrade
+2022-08-30 22:46:25.679[1661867185679] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 2] Connecting to stream.binance.com/stream
+2022-08-30 22:46:25.680[1661867185680] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 3] Connecting to stream.binance.com/ws/tgBdHepZY2Uwv423DKGyeoguE2fntJmg1mAelC7sKMLbsypav1D0No3LfZgrlGeZ
+2022-08-30 22:46:25.681[1661867185681] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 4] Connecting to stream.binance.com/ws/btcusdt@kline_h
+2022-08-30 22:46:26.193[1661867186193] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 3] Connected to Server
+2022-08-30 22:46:26.196[1661867186196] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connected to Server
+2022-08-30 22:46:26.248[1661867186248] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 4] Connected to Server
+2022-08-30 22:46:26.277[1661867186277] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 2] Connected to Server
+2022-08-30 22:47:24.168[1661867244168] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connecting to stream.binance.com/ws/btcusdt@aggTrade
+2022-08-30 22:47:24.175[1661867244175] | INFO  | main       | c.b.c.c.utils.WebSocketConnection    - [Connection 2] Connecting to stream.binance.com/ws/btcusdt@kline_h
+2022-08-30 22:47:24.753[1661867244753] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 2] Connected to Server
+2022-08-30 22:47:24.774[1661867244774] | INFO  | OkHttp https://stream.binance.com:9443/... | c.b.c.c.utils.WebSocketConnection    - [Connection 1] Connected to Server
